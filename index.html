@@ -6,12 +6,470 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>My Project</title>
+    <title>Greencare.com.au</title>
 </head>
 
 <body>
-    <h1>Project Starter</h1>
-    <script src="script.js"></script>
+    <div class="book">
+        <div class="container">
+            <h2>Have you taken our Eligibility test?</h2>
+            <div class="eligility-container">
+                <div class="eligiblity-item eligility-yes">
+                    <i class="far fa-thumbs-up"></i>
+                    <h3>Yes</h3>
+                    <p>I've taken the Eligibility test and I am eligible.</p>
+                </div>
+                <div class="eligiblity-item eligility-no">
+                    <i class="far fa-thumbs-down"></i>
+                    <h3>No</h3>
+                    <p>I have not taken the Eligibility test and don't know if I'm eligible.</p>
+                </div>
+            </div>
+        </div>
+        <!--container div eligibility test-->
+        <div class="container">
+            <h2>Are you eligible?</h2>
+            <div class="questionnaire-container">
+                <div class="questionnaire-item questionnaire-1">
+                    <p>1. Do you suffer from any of the following conditions and have been diagnosed by a registered
+                        medical practitioner in Australia?</p>
+                    <ul>
+                        <li>Sleep issues</li>
+                        <li>Anxiety</li>
+                        <li>Chronic Pain</li>
+                        <li>Chronic Disease</li>
+                        <li>Cancer Symptoms</li>
+                        <li>Palliative Care</li>
+                        <li>Mental Health issues</li>
+                        <li>Migraines</li>
+                        <li>Neurological conditions (epilepsy, seizures etc)</li>
+                        <li>Gut Health conditions (IBS, Chron's Disease, IBD etc)</li>
+                    </ul>
+                    <button>Yes</button>
+                    <button>No</button>
+                </div>
+                <div class="questionnaire-item questionnaire-2">
+                    <p>2. Have you tried conventional treatments for the condition(s) you are considering taking medical
+                        cannabis for?</p>
+                    <button>Yes</button>
+                    <button>No</button>
+                </div>
+                <div class="questionnaire-item questionnaire-3">
+                    <p>3. Have the medication(s) that you have been prescribed for your condition been unsuccessful OR
+                        produced side effects that prevent you from taking your medicine(s)?</p>
+                    <button>Yes</button>
+                    <button>No</button>
+                </div>
+                <div class="questionnaire-item questionnaire-4">
+                    <p>4. Are you 18 years or older?</p>
+                    <button>Yes</button>
+                    <button>No</button>
+                </div>
+                <button>Submit</button>
+            </div>
+        </div> <!-- container div questionnaire-->
+        <div class="container">
+            <div class="eligibility-results eligibility-results-yes">
+                <h2>Based on your answers, you are potentially eligible to access medicinal cannabis.</h2>
+                <p>Please note that eligibility does not guarantee a prescription of Medicinal Cannabis. Eligibility
+                    means you have a higher chance of being granted approval of prescription Medicinal Cannabis as the
+                    TGA
+                    takes into consideration your current conditions and past treatments.</p>
+                <button>book now</button>
+                <small>*TGA is the Therapeutic Goods Administration – Australia’s regulatory authority responsible for
+                    assessing applications from doctors to prescribe medical cannabis. At this time, additional approval
+                    from certain State health departments may also be required depending on your State, although it is
+                    anticipated that these State approval requirements will be merged with the TGA approval process in
+                    the future.</small>
+            </div>
+            <div class="eligibility-results eligibility-results-no">
+                <h2>Based on your answers, you may not be eligible to access medicinal cannabis.</h2>
+                <p>This does not mean that you will not be approved for access to medicinal cannabis with the TGA* as
+                    they will consider ALL applications from medical practitioners to access medicinal cannabis for
+                    their patients, which is where Greencare comes in.</p>
+                <p>
+                    We recommend booking an appointment with one of our doctors to discuss your health and potential
+                    treatment options. They will then go through the application process to the TGA to prescribe you
+                    Medicinal Cannabis if post consultation with you, they believe you would benefit from Medicinal
+                    Cannabis treatment.
+                </p>
+                <button>book now</button>
+                <small>*TGA is the Therapeutic Goods Administration – Australia’s regulatory authority responsible for
+                    assessing applications from doctors to prescribe medical cannabis. At this time, additional approval
+                    from certain State health departments may also be required depending on your State, although it is
+                    anticipated that these State approval requirements will be merged with the TGA approval process in
+                    the future.
+                </small>
+            </div>
+        </div><!-- container div eligibility-results-->
+        <div class="container">
+            <h2>Would you like a Single Consult or Health Payment Plans?</h2>
+            <div class="bookoption-container">
+                <div class="bookoption-item bookoption-nurse">
+                    <i class="fas fa-user-nurse"></i>
+                    <h3>Single Consult</h3>
+                    <p>We offer an optional consult with one of our specialist Nurses for any Patients who may want to
+                        find out more information about Plant Based and Endocannabinoid Medicines before making their
+                        initial Doctor's appointment.</p>
+                </div>
+                <div class="bookoption-item bookoption-calendar">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Health Payment Plans</h3>
+                    <p>Our Doctors consult with you in depth about your current health, symptoms and past treatments via
+                        telehealth. They will work with you to outline a treatment plan to optimise your health and
+                        wellbeing.</p>
+                </div>
+            </div>
+        </div>
+        <!--container div bookoption-->
+        <div class="container">
+            <h2>Single Consult</h2>
+            <p>Single Nurse or Doctor consultation</p>
+            <div class="plans-container">
+                <div class="plans-item eligility-yes">
+                    <i class="fas fa-user-nurse"></i>
+                    <h3>Nurse</h3>
+                    <p>We offer an optional consult with one of our specialist Nurses for any Patients who may want to
+                        find out more information about Plant Based and Endocannabinoid Medicines before making their
+                        initial Doctor's appointment.</p>
+                </div>
+                <div class="eligiblity-item eligility-no">
+                    <i class="fas fa-user-md"></i>
+                    <h3>Doctor</h3>
+                    <p>Our Doctors consult with you in depth about your current health, symptoms and past treatments via
+                        telehealth. They will work with you to outline a treatment plan to optimise your health and
+                        wellbeing.</p>
+                </div>
+            </div>
+        </div>
+        <!--container div plans-container-->
+        <div class="container">
+            <div class="pricing_text_Section">
+                <div class="page-width cost_section pricing-table-div" style="max-width: none;">
+                    <h2 class="h3">Appointment Options</h2>
+                    <div class="pricing-table">
+                        <table class="pricing-table-single-appointment">
+                            <tr>
+                                <td>
+                                    DR. CONSULT
+                                </td>
+
+                                <td>
+                                    DR. FOLLOW UP
+                                </td>
+
+                                <td>
+                                    NURSE CONSULT
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="pricing-table-color-green">$189</span>
+                                </td>
+
+                                <td>
+                                    <span class="pricing-table-color-green">$99</span>
+                                </td>
+
+                                <td>
+                                    <span class="pricing-table-color-green">$39</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <div class="pricing-table-iconblock"><a href="/pages/book-appointment">BOOK NOW</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="page-width cost_section pricing-table-div"
+                    style="max-width: none; margin-top: 40px !important;">
+                    <h2 class="h3"> Health Payment Plans</h2>
+                    <div class="pricing-table">
+                        <table class="pricing-table-header">
+                            <tr class="pricing-border-none">
+                                <td>SERVICES
+                                </td>
+                                <td>STANDARD
+                                </td>
+                                <td>MID
+                                </td>
+                                <td>PREMIUM
+                                </td>
+                            </tr>
+                            <tr class="pricing-border-none">
+                                <td>
+                                </td>
+                                <td><span class="pricing-table-color-green"> $19.95<br><span
+                                            class="pricing-table-smaller-text">(monthly)</span></span>
+                                </td>
+                                <td><span class="pricing-table-color-green"> $29.95<br><span
+                                            class="pricing-table-smaller-text">(monthly)</span></span>
+                                </td>
+                                <td><span class="pricing-table-color-green"> $39.95<br><span
+                                            class="pricing-table-smaller-text">(monthly)</span></span>
+                                </td>
+                            </tr>
+                        </table>
+                        <table class="pricing-table-body">
+                            <tr class="pricing-border-top">
+                                <td>
+                                    Doctor Consult
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    Nurse Consult
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    Doctor Follow up Consult
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    Nurse Consult<br><span class="pricing-table-smaller-text">(at 6 months)</span>
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    Doctor Consult<br><span class="pricing-table-smaller-text">(at 12 months)</span>
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                            </tr>
+
+                            <tr class="pricing-border-top">
+                                <td>
+                                    Educational Event Invitations<br><span class="pricing-table-smaller-text">(Up to 3
+                                        informative
+                                        event invitations per year)</span>
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    9pm to 5pm Hotline<br><span class="pricing-table-smaller-text">(limited to one call
+                                        per
+                                        month)</span>
+                                </td>
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    Same Day Bookings
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    After-hours Bookings
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Pharmacy Assistance<br><span class="pricing-table-smaller-text">(direct medication
+                                        delivery to
+                                        your door)</span>
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Repeat Prescriptions
+                                </td>
+                                <td>
+
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Monthly Industry Updates
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                            </tr>
+                            <tr class="pricing-border-bottom">
+                                <td>
+                                    Ongoing Subsciption
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                                <td>
+                                    <img src="https://cdn.shopify.com/s/files/1/0438/2697/0775/files/Group_238.png"
+                                        alt="+" class="pricing-table-img">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" style="text-align: center; border: none;">
+                                    <span class="pricing-table-smaller-text">
+                                        *Annual Health Plans are billed monthly for 12 months from your date of purchase
+                                        and will
+                                        roll over automatically if not cancelled before your subscription date.
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" style="border: none;">
+                                    <div class="pricing-table-iconblock"><a href="/pages/book-appointment">BOOK NOW</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!--container div pricing_text-->
+            <div class="container">
+                <div class="HD-component"></div>
+            </div>
+            <!--container HD-component div-->
+        </div> <!-- book div-->
+        <script src="script.js"></script>
 </body>
 
 </html>
